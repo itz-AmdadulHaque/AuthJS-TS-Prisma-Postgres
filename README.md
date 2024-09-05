@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# AuthJS TS Prisma Postgresql
+you can singin with google or github, your account will be created. Prisma adapter is added with authjs, it will handle the login and creation on user profile data in database and manage session. logged in user can see the icon left side if login and can go to setting. Admin will see a admin option.
+
+
+## ENV
+- DATABASE_URL
+- AUTH_SECRET
+- AUTH_URL
+- AUTH_GOOGLE_ID=
+- AUTH_GOOGLE_SECRET
+- AUTH_GITHUB_ID
+- AUTH_GITHUB_SECRET
+
 
 ## Getting Started
 
